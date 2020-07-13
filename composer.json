@@ -1,0 +1,21 @@
+{
+    "name": "humbertonunes/pdfreader",
+    "description": "Extract text from pdf files.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Humberto.Souza",
+            "email": "humberto.nts@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Handle\\File\\": "src/"
+        }
+    },
+    "require": {
+        "thiagoalessio/tesseract_ocr": "^2.7",
+        "imal-h/pdf-box": "^1.3",
+        "smalot/pdfparser": "^0.14.0"
+    }
+}
